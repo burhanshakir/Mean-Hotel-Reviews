@@ -1,0 +1,27 @@
+{
+  "name": "mean-hotel-reviews",
+  "version": "1.0.0",
+  "description": "Learning mean",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burhanshakir/Mean-Hotel-Reviews.git"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "Burhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burhanshakir/Mean-Hotel-Reviews/issues"
+  },
+  "homepage": "https://github.com/burhanshakir/Mean-Hotel-Reviews#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mocha": "^5.2.0"
+  }
+}
