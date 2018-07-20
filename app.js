@@ -12,11 +12,12 @@ app.set('port', 3000);
 // Add middleware to console log every request
 app.use(function(req, res, next) {
   console.log(req.method, req.url);
-  next(); 
+  next();
 });
 
 // Set static directory before defining routes
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/node_modules', express.static(path.join(__dirname, '/node_modules')));
 
 // Enable parsing of posted forms
 app.use(bodyParser.urlencoded({ extended: false }));

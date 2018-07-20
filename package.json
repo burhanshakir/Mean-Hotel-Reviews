@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/burhanshakir/Mean-Hotel-Reviews#readme",
   "dependencies": {
+    "angular": "^1.7.2",
+    "angular-route": "^1.7.2",
+    "angular-router": "0.0.2",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "mocha": "^5.2.0",
